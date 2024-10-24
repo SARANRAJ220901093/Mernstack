@@ -1,0 +1,19 @@
+.top{
+    background-color: orangered;
+    width: 1000px;
+    height: 300px;
+}
+.mid{
+    background-color: aliceblue;
+    width: 1000px;
+    height: 300px;
+}
+.mid image{
+    margin-bottom: auto;
+    margin-right: auto;
+    
+.bottom{
+    background-color: forestgreen;
+    width: 1000px;
+    height: 300px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addition(){
+            var a=parseInt(document.getElementById("num1").value);
+            var b=parseInt(document.getElementById("num2").value);
+            var c=a+b;
+            console.log(c)
+            document.getElementById("res").innerText="Result:"+c;
+        }
+
+            function subraction(){
+            var a=parseInt(document.getElementById("num1").value);
+            var b=parseInt(document.getElementById("num2").value);
+            var c=a-b;
+            console.log(c)
+            document.getElementById("res").innerText="Result:"+c;
+        }
+        function multiplication(){
+            var a=parseInt(document.getElementById("num1").value);
+            var b=parseInt(document.getElementById("num2").value);
+            var c=a*b;
+            console.log(c)
+            document.getElementById("res").innerText="Result:"+c;
+        }
+        function division(){
+            var a=parseInt(document.getElementById("num1").value);
+            var b=parseInt(document.getElementById("num2").value);
+            var c=a/b;
+            console.log(c)
+            document.getElementById("res").innerText="Result:"+c;
+        }
+    </script>
+</head>
+<body>
+    <h1> calculator</h1>
+    <form>
+        <input id="num1" type="number" placeholder="enter a number">
+        <input id="num2" type="number" placeholder="enter a number">
+        <input type="button" value="ADD" onclick="addition()">
+        <input type="button" value="SUB" onclick="subraction()">
+        <input type="button" value="MUL" onclick="multiplication()">
+        <input type="button" value="DIV" onclick="division()">
+        <h1 id="res">Result:</h1>
+
+    </form>
+</body>
+</html>
